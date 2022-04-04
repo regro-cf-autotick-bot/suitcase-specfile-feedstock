@@ -1,5 +1,5 @@
 {% set name = "suitcase-specfile" %}
-{% set version = "0.2.4" %}
+{% set version = "0.2.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 653c6a5675c7ee0c0b65c1059ae41ebfef3b85d1ed18529728072424f5b72b2e
+  sha256: 40af3a1828092be1c015448082adba55c745506b988ee39095f7f0a84a842213
 
 build:
   noarch: python
